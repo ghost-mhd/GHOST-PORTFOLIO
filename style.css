@@ -1,57 +1,38 @@
-body{
-        background: black;
+/* ===== Variables de couleur — thème terminal, prêtes à l'emploi ===== */
+:root {
+  --bg: #0D1117;
+  --bg-panel: #161B22;
+  --border: #30363D;
+  --text: #C9D1D9;
+  --text-dim: #8B949E;
+  --accent: #3FB950;
 }
 
-.a{
-        color: white;
-            text-align: center;
-}
-.container{
-        display: flex;
-            justify-content: center;
-                gap: 15px;
-                    box-shadow: 0px 0px 10px gray;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.btn1{
-        background: red;
-            color: yellow;
-                padding: 10px 20px;
-                    box-shadow: 0px 0px 10px gray;
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: system-ui, sans-serif;
+  line-height: 1.6;
 }
 
-.btn2{
-        background: green;
-            color: orange;
-                padding: 10px 20px;
-}
+/* ===== À vous de jouer à partir d'ici ===== */
 
-.btn3{
-        background: brown;
-            color: pink;
-                padding: 10px 20px;
-                    box-shadow: 0px 0px 10px gray;
-}
-.b{
-      color: white;
-        text-align: center;
-}
-.l{
-      color: white;
-        text-align: center;
-}
-.fromer{
-      justify-content: center;
-        gap: 15px;
-          box-shadow: 0px 0px 10px gray;
-}
+/* TODO #hero : centrez le contenu, donnez de l'espace (padding),
+   utilisez var(--accent) pour faire ressortir un élément */
 
-}
-}
-}
-}
-}
-}
-}
-}
-}
+/* TODO section : donnez une largeur max et un padding à chaque section,
+   comme on l'a vu ensemble (max-width, margin: 0 auto) */
+
+/* TODO h2 : stylez les titres de section — couleur var(--accent),
+   petite taille, majuscules (text-transform: uppercase) */
+
+/* TODO .project-card : fond var(--bg-panel), bordure var(--border),
+   border-radius, padding — pour que ça ressemble à une "carte" */
+
+/* TODO footer : centrez le texte, couleur var(--text-dim) */
