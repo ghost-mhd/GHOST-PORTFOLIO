@@ -21,18 +21,37 @@ body {
   line-height: 1.6;
 }
 
-/* ===== À vous de jouer à partir d'ici ===== */
+#hero {
+  text-align: center;
+  padding: 60px 20px;
+} 
+#hero h1 {
+color: var(--accent);
+}
 
-/* TODO #hero : centrez le contenu, donnez de l'espace (padding),
-   utilisez var(--accent) pour faire ressortir un élément */
-
-/* TODO section : donnez une largeur max et un padding à chaque section,
-   comme on l'a vu ensemble (max-width, margin: 0 auto) */
-
-/* TODO h2 : stylez les titres de section — couleur var(--accent),
-   petite taille, majuscules (text-transform: uppercase) */
-
-/* TODO .project-card : fond var(--bg-panel), bordure var(--border),
-   border-radius, padding — pour que ça ressemble à une "carte" */
-
-/* TODO footer : centrez le texte, couleur var(--text-dim) */
+section {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+section h2 {
+  color: var(--accent);
+  text-transform: uppercase;
+}
+.project-card {
+  background: var(--bg-panel);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 24px;
+}
+footer {
+  text-align: center;
+  color: var(--text-dim);
+}
+.btn {
+  background: var(--accent);
+  padding: 10px 20px;
+  border-radius:10px ;
+  text-decoration: none;
+  color: var(--bg);
+}
